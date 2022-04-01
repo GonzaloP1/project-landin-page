@@ -6,6 +6,13 @@ body {
 
 }
 
+.inside {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 75px;
+}
+
 .head {
     background-color: #1F2937 ;
     display: flex;
@@ -43,11 +50,13 @@ a:hover {
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .head-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .hero {
@@ -62,6 +71,7 @@ a:hover {
     flex-wrap: wrap;
     max-width: 400px;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .secondary-text {
@@ -73,7 +83,7 @@ a:hover {
     margin-top: 5px;
 }
 
-button {
+.button {
     background-color: #3882f6;
     color: #E5E7EB;
     padding: 5px 25px;
@@ -92,8 +102,129 @@ button:active {
     transform: translateY(2px);
 }
 
-.image-a {
-    width: auto;
-    height: 300px;
-    margin-top: 10px;
+.placeholder {
+    background-color: rgb(97, 106, 119);
+    display: flex;
+    height: 240px;
+    width: 530px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h4 {
+    color: #E5E7EB;
+}
+
+.mid {
+    text-align: center;
+}
+
+.some {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.below-mid {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 150px;
+    align-items: center;
+}
+
+em{
+    font-size: 25px;
+    color: #1F2937;
+    font-family: italic;
+}
+
+.quote-text {
+    max-width: 500px;
+}
+
+.god {
+    display: flex;
+}
+
+.thor {
+    font-weight: bold;
+    color: #1F2937;
+    margin-left: auto;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.below-below-mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+
+.box {
+    background-color: #3882f6;
+    width: 700px;
+    border-radius: 5px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0px;
+
+}
+
+.sign {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border: #f9faf8;
+    width: 120px;
+    height: 35px;
+    margin-top: 35px;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 20px;
 }
